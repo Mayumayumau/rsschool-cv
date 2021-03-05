@@ -8,22 +8,25 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <main>
+    <div id="main">
       <h1>Maya Sidorova</h1>
-      <p><em>Web-developer based in Shanghai</em></p>
+      <img id="photo" src="photo.png" alt="A photo of a woman with a cat">
+      <p id="subtitle"><em>Web-developer based in Shanghai</em></p>
       <section id="contacts">
-        <div id="email">Email: mayasidorova@yahoo.com</div>
+        <div id="email"><b>Email:</b> mayasidorova@yahoo.com</div>
         <div id="linkedin">
           <a href="https://www.linkedin.com/in/maya-sidorova-97a15686"
             ><strong>LinkedIn</strong></a
           >
+          <a id="github" href="https://github.com/Mayumayumau"
+            ><strong>GitHub</strong>
         </div>
         <div>
-          <a id="github" href="https://github.com/Mayumayumau"
-            ><strong>GitHub</strong></a
+          </a
           >
         </div>
       </section>
+      <div id="skillset">
       <section id="skills">
         <h2>Skills</h2>
         <ul>
@@ -35,13 +38,14 @@
         </ul>
       </section>
       <section id="languages">
-        <h1>Languages</h1>
+        <h2>Languages</h2>
         <ul>
           <li><strong>Russian</strong> - Native</li>
           <li><strong>English</strong> - fluent</li>
           <li><strong>Chinese</strong> - fluent</li>
         </ul>
       </section>
+    </div>
       <section id="education">
         <h2>Education</h2>
         <ul>
@@ -55,29 +59,34 @@
           </li>
         </ul>
       </section>
-      <section id="Projects">
+      <section id="projects">
         <h2>Projects</h2>
-        <figure>
-          <img
-            src="image-not-available.jpg"
-            alt="Screenshot of Online Zoo project"
-          />
-          <figcaption>Online Zoo</figcaption>
-        </figure>
-        <figure>
-          <img
-            src="image-not-available.jpg"
-            alt="Screenshot of Virtual Piano web app"
-          />
-          <figcaption>Virtual Piano</figcaption>
-        </figure>
-        <figure>
-          <img
-            src="image-not-available.jpg"
-            alt="Screenshot of Photo Editor web app"
-          />
-          <figcaption>Photo Editor</figcaption>
-        </figure>
+        <div id="project-photos">
+          <figure>
+            <img
+              class="project-photo"
+              src="image-not-available.jpg"
+              alt="Screenshot of Online Zoo project"
+            />
+            <figcaption>Online Zoo</figcaption>
+          </figure>
+          <figure>
+            <img
+              class="project-photo"
+              src="image-not-available.jpg"
+              alt="Screenshot of Virtual Piano web app"
+            />
+            <figcaption>Virtual Piano</figcaption>
+          </figure>
+          <figure>
+            <img
+              class="project-photo"
+              src="image-not-available.jpg"
+              alt="Screenshot of Photo Editor web app"
+            />
+            <figcaption>Photo Editor</figcaption>
+          </figure>
+        </div>
       </section>
       <section id="code">
         <h2>Code Example</h2>
@@ -93,6 +102,6 @@
         }
         </pre>
       </section>
-    </main>
+    </div>
   </body>
 </html>
