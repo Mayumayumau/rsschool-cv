@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maya Sidorova CV</title>
+  </head>
+  <body>
+    <main>
+      <h1>Maya Sidorova</h1>
+      <p><em>Web-developer based in Shanghai</em></p>
+      <section id="contacts">
+        <div id="email">Email: mayasidorova@yahoo.com</div>
+        <div id="linkedin">
+          <a href="https://www.linkedin.com/in/maya-sidorova-97a15686"
+            ><strong>LinkedIn</strong></a
+          >
+        </div>
+        <div>
+          <a id="github" href="https://github.com/Mayumayumau"
+            ><strong>GitHub</strong></a
+          >
+        </div>
+      </section>
+      <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>HTMl/CSS</li>
+          <li>Javascript</li>
+          <li>Python</li>
+          <li>Git</li>
+          <li>C/C++</li>
+        </ul>
+      </section>
+      <section id="languages">
+        <h1>Languages</h1>
+        <ul>
+          <li><strong>Russian</strong> - Native</li>
+          <li><strong>English</strong> - fluent</li>
+          <li><strong>Chinese</strong> - fluent</li>
+        </ul>
+      </section>
+      <section id="education">
+        <h2>Education</h2>
+        <ul>
+          <li>
+            2019-2022 Tomsk State University of Control Systems and
+            Radioelectronics - <em>BS in Computer Science</em>
+          </li>
+          <li>
+            2005-2010 Tomsk State University -
+            <em>MA in Linguistics and Translation Studies</em>
+          </li>
+        </ul>
+      </section>
+      <section id="Projects">
+        <h2>Projects</h2>
+        <figure>
+          <img src="" alt="Screenshot of Online Zoo project" />
+          <figcaption>Online Zoo</figcaption>
+        </figure>
+        <figure>
+          <img src="" alt="Screenshot of Virtual Piano web app" />
+          <figcaption>Virtual Piano</figcaption>
+        </figure>
+        <figure>
+          <img src="" alt="Screenshot of Photo Editor web app" />
+          <figcaption>Photo Editor</figcaption>
+        </figure>
+      </section>
+      <section id="code">
+        <h2>Code Example</h2>
+        <pre>
+          node * insert_node(node *tree, node *new_node) { // function inserting a node into AVL Tree
+            if (!tree) return new_node;
+            if (new_node->getKey() > tree->getKey()){
+                tree->setRight(insert_node(tree->getRight(), new_node));
+            } else {
+                    tree->setLeft(insert_node(tree->getLeft(), new_node));
+                }
+            return balance(tree);
+        }
+        </pre>
+      </section>
+    </main>
+  </body>
+</html>
