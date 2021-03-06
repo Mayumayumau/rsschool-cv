@@ -10,7 +10,7 @@
   <body>
     <div id="main">
       <h1>Maya Sidorova</h1>
-      <img id="photo" src="photo.png" alt="A photo of a woman with a cat">
+      <img id="photo" src="photo.png" alt="A photo of a woman with a cat" />
       <p id="subtitle"><em>Web-developer based in Shanghai</em></p>
       <section id="contacts">
         <div id="email"><b>Email:</b> mayasidorova@yahoo.com</div>
@@ -20,32 +20,29 @@
           >
           <a id="github" href="https://github.com/Mayumayumau"
             ><strong>GitHub</strong>
-        </div>
-        <div>
-          </a
-          >
+          </a>
         </div>
       </section>
       <div id="skillset">
-      <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-          <li>HTMl/CSS</li>
-          <li>Javascript</li>
-          <li>Python</li>
-          <li>Git</li>
-          <li>C/C++</li>
-        </ul>
-      </section>
-      <section id="languages">
-        <h2>Languages</h2>
-        <ul>
-          <li><strong>Russian</strong> - Native</li>
-          <li><strong>English</strong> - fluent</li>
-          <li><strong>Chinese</strong> - fluent</li>
-        </ul>
-      </section>
-    </div>
+        <section id="skills">
+          <h2>Skills</h2>
+          <ul>
+            <li>HTMl/CSS</li>
+            <li>Javascript</li>
+            <li>Python</li>
+            <li>Git</li>
+            <li>C/C++</li>
+          </ul>
+        </section>
+        <section id="languages">
+          <h2>Languages</h2>
+          <ul>
+            <li><strong>Russian</strong> - Native</li>
+            <li><strong>English</strong> - fluent</li>
+            <li><strong>Chinese</strong> - fluent</li>
+          </ul>
+        </section>
+      </div>
       <section id="education">
         <h2>Education</h2>
         <ul>
@@ -91,6 +88,7 @@
       <section id="code">
         <h2>Code Example</h2>
         <pre>
+          <code>
           node * insert_node(node *tree, node *new_node) { // function inserting a node into AVL Tree
             if (!tree) return new_node;
             if (new_node->getKey() > tree->getKey()){
@@ -100,6 +98,7 @@
                 }
             return balance(tree);
         }
+          </code>
         </pre>
       </section>
     </div>
