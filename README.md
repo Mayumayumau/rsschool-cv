@@ -1,1 +1,1 @@
-https://Mayumayumau.github.io/rsschool-cv/cv
+https://Mayumayumau.github.io/rsschool-cv/
